@@ -1,0 +1,5 @@
+﻿name,accuracy,precision_macro,recall_macro,f1_macro,params
+baseline_logistic_regression,0.9015,0.8956834900568638,0.895880633492306,0.8950523968311478,"{'model': 'LogisticRegression', 'max_features': 8000}"
+mlp_small,0.872,0.8658144149367386,0.864687136653031,0.8651255381178755,"{'model': 'MLP', 'max_features': 5000, 'hidden_layers': [128], 'learning_rate': 0.001, 'alpha': 0.0001}"
+mlp_medium,0.8751666666666666,0.8686413771290645,0.8681405799387402,0.8682811030501993,"{'model': 'MLP', 'max_features': 8000, 'hidden_layers': [256, 128], 'learning_rate': 0.001, 'alpha': 0.0001}"
+mlp_regularized,0.8753333333333333,0.8691100855702325,0.8682249877444812,0.8685399167523338,"{'model': 'MLP', 'max_features': 8000, 'hidden_layers': [256, 128], 'learning_rate': 0.0005, 'alpha': 0.001}"

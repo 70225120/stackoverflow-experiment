@@ -1,0 +1,14 @@
+              precision    recall  f1-score   support
+
+           c       0.68      0.72      0.70       645
+          c#       0.85      0.85      0.85       684
+         c++       0.69      0.70      0.70       692
+        java       0.96      0.94      0.95       791
+  javascript       0.96      0.94      0.95       978
+      python       0.93      0.93      0.93       856
+           r       0.90      0.90      0.90       678
+       swift       0.97      0.96      0.96       676
+
+    accuracy                           0.88      6000
+   macro avg       0.87      0.87      0.87      6000
+weighted avg       0.88      0.88      0.88      6000
